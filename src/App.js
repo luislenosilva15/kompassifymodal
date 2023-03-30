@@ -5,14 +5,14 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(()=> {
-    window.kompassifyLaunchTour('af76418b-ce71-4106-a38a-d5185fbd2010', 0, 3);
-
+    
   }, [])
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <button onClick={ ()=> window?.kompassifyLaunchTour('af76418b-ce71-4106-a38a-d5185fbd2010', 0, 3)}>clica aqui</button>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
