@@ -6,6 +6,7 @@ function App() {
 
 
   useEffect(()=> {
+    
     window?.kompassifySegmentation?.addUserToSegment("modal")
     
   }, [])
@@ -14,7 +15,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {/* <button o}>clica aqui</button> */}
+          <button onClick={()=> window?.kompassifySegmentation?.addUserToSegment("modal")}>sssss</button>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
