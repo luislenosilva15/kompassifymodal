@@ -6,6 +6,8 @@ function App() {
 
 
   useEffect(()=> {
+
+    window?.kompassifyLaunchTour('04962af1-e082-4f23-bb8c-e0b603e58a77', 0, 1);
         
   }, [])
   return (
