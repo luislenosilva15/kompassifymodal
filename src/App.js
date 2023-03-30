@@ -6,7 +6,7 @@ function App() {
 
 
   useEffect(()=> {
-    window?.kompassifySegmentation?.addUserToSegment('abrir')
+    window?.kompassifySegmentation?.addUserToSegment("modal")
     
   }, [])
   return (
