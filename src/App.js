@@ -6,6 +6,7 @@ function App() {
 
 
   useEffect(()=> {
+    window?.kompassifySegmentation?.addUserToSegment('abrir')
     
   }, [])
   return (
@@ -13,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <button onClick={ ()=>  window?.kompassifySegmentation?.addUserToSegment('abrir') }>clica aqui</button>
+          {/* <button o}>clica aqui</button> */}
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
