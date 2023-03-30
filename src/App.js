@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(()=> {
-   window.kompassifySegmentation.addUserToSegment("sim")
+   window?.kompassifySegmentation?.addUserToSegment("sim")
 
   }, [])
   return (
