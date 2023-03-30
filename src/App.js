@@ -6,16 +6,16 @@ function App() {
 
 
   useEffect(()=> {
-    
-    window?.kompassifySegmentation?.addUserToSegment("modal")
-    
+        
   }, [])
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <button onClick={()=> window?.kompassifySegmentation?.addUserToSegment("modal")}>sssss</button>
+          <button onClick={()=> window?.kompassifySegmentation?.addUserToSegment("modalShop")}>modal shop</button>
+          <button onClick={()=> window?.kompassifySegmentation?.addUserToSegment("modalSchoolProduct")}>modalSchoolProduct</button>
+
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
